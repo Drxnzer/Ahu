@@ -1,0 +1,8 @@
+webhook_url: ''
+client_id: ''
+client_secret: ''
+bot_token: ''
+redirect_url: 'http://localhost:8080'
+owners:
+  - 'id'
+  - 'id'

@@ -1,0 +1,5 @@
+discord
+tls_client
+typing_extensions
+requests
+pyyaml

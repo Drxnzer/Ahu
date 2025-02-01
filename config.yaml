@@ -4,5 +4,5 @@ client_secret: '--tP6xiuG2qIMMXsVYtXw-BVDPxZa7YL'
 bot_token: ''
 redirect_url: 'http://localhost:8080'
 owners:
-  - 'id'
+  - '940067342434599033'
   - 'id'

@@ -26,23 +26,6 @@ async def on_ready():
 if not hasattr(bot, 'tree'):
     bot.tree = app_commands.CommandTree(bot)
 
-def load_keys():
-    keys = {}
-    try:
-        with open('keys.txt', 'r') as file:
-            for line in file:
-                key, owner_id, days = line.strip().split(':')
-                keys[key] = (int(owner_id), int(days))
-    except FileNotFoundError:
-        pass
-    return keys
-
-authorized_users = {}
-
-def is_key_expired(activation_date, days_valid):
-    expiration_date = activation_date + datetime.timedelta(days=days_valid)
-    return datetime.datetime.now() > expiration_date
-
 with open('config.yaml', 'r') as config_file:
     config = yaml.safe_load(config_file)
 

@@ -1,6 +1,6 @@
 webhook_url: ''
-client_id: ''
-client_secret: ''
+client_id: '1231108065793671208'
+client_secret: '--tP6xiuG2qIMMXsVYtXw-BVDPxZa7YL'
 bot_token: ''
 redirect_url: 'http://localhost:8080'
 owners:
